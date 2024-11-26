@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Client</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_add_client.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1><i class="fas fa-user-plus"></i> Ajouter un Client</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="alert">
+                <ul>
+                    {% for category, message in messages %}
+                        <li class="alert-{{ category }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+        {{ form.hidden_tag() }}  <!-- Ajout du token CSRF ici -->
+
+        <label for="nom">Nom du client :</label>
+        {{ form.nom(class="form-control", size=32) }}
+
+        <label for="email">Email :</label>
+        {{ form.email(class="form-control", size=32) }}
+
+        <label for="adresse">Adresse :</label>
+        {{ form.adresse(class="form-control", size=32) }}
+
+        <div>
+            {{ form.submit(class="btn-custom") }}
+        </div>
+    </form>
+
+    <br><a href="{{ url_for('list_clients') }}" class="back-link"><i class="fas fa-arrow-left"></i> Retour à la liste des clients</a>
+</body>
+</html>

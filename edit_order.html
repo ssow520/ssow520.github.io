@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier la Commande</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_orders.css') }}">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-edit"></i> Modifier la Commande</h1>
+    </header>
+
+    <div class="home-link">
+        <a href="{{ url_for('list_commandes') }}"><i class="fas fa-arrow-left"></i> Retour aux commandes</a>
+    </div>
+
+    <main>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="alerts">
+                    {% for category, message in messages %}
+                        <div class="alert {% if category == 'error' %}alert-danger{% else %}alert-success{% endif %}">
+                            <i class="fas {% if category == 'error' %}fa-exclamation-circle{% else %}fa-check-circle{% endif %}"></i>
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <div class="form-container">
+            <form method="POST" class="edit-form">
+                {{ form.csrf_token }}
+                
+                <div class="form-group">
+                    <label for="client_id">Client:</label>
+                    {{ form.client_id(class="form-control") }}
+                    {% if form.client_id.errors %}
+                        {% for error in form.client_id.errors %}
+                            <span class="error-message">{{ error }}</span>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <label for="produit_id">Produit:</label>
+                    {{ form.produit_id(class="form-control") }}
+                    {% if form.produit_id.errors %}
+                        {% for error in form.produit_id.errors %}
+                            <span class="error-message">{{ error }}</span>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    <label for="quantite">Quantité:</label>
+                    {{ form.quantite(class="form-control") }}
+                    {% if form.quantite.errors %}
+                        {% for error in form.quantite.errors %}
+                            <span class="error-message">{{ error }}</span>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-save"></i> Enregistrer les modifications
+                    </button>
+                    <a href="{{ url_for('list_commandes') }}" class="btn-secondary">
+                        <i class="fas fa-times"></i> Annuler
+                    </a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Mon Application - Tous droits réservés.
+    </footer>
+</body>
+</html>

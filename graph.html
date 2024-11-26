@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Produits</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_graph.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Lien de retour à la page d'accueil -->
+     <div class="home-link">
+        <a href="{{ url_for('dashboard') }}"><i class="fas fa-home"></i> Accueil</a>
+    </div>
+
+    <h1><i class="fas fa-chart-pie"></i> Analyse des Produits</h1>
+    
+    <div class="charts">
+        <div class="chart-container">
+            <i class="fas fa-cogs"></i>
+            <h2>Répartition des Produits par type de produit</h2>
+            <img src="{{ url_for('static', filename='product_share.png') }}" alt="Répartition des Produits par type de produit">
+        </div>
+
+        <div class="chart-container">
+            <i class="fas fa-box"></i>
+            <h2>Top 5 des Stocks par Nombre de Produits</h2>
+            <img src="{{ url_for('static', filename='category_bar_chart.png') }}" alt="Top 5 des Stocks">
+        </div>
+
+        <div class="chart-container">
+            <i class="fas fa-tag"></i>
+            <h2>Répartition des Prix des Produits</h2>
+            <img src="{{ url_for('static', filename='price_histogram.png') }}" alt="Répartition des Prix">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Mon Application - Tous droits réservés.
+    </footer>
+</body>
+</html>
+<!---<img src="{{ product_share }}" alt="Répartition des Produits par Type">
+<img src="{{ category_bar_chart }}" alt="Top 5 des Catégories par Nombre de Produits">
+<img src="{{ price_histogram }}" alt="Répartition des Prix des Produits">--->

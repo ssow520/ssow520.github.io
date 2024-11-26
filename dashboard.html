@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_dashboard.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="{{ url_for('list_produits') }}"><i class="fas fa-box"></i> Produits</a></li>
+            <li><a href="{{ url_for('list_clients') }}"><i class="fas fa-user"></i> Clients</a></li>
+            <li><a href="{{ url_for('list_commandes') }}"><i class="fas fa-shopping-cart"></i> Commandes</a></li>
+            <li><a href="{{ url_for('graph') }}"><i class="fas fa-chart-bar"></i> Graphiques</a></li>
+            <li><a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i> Se déconnecter</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="content-box">
+            <h1><i class="fas fa-tachometer-alt"></i> Bienvenue sur le Tableau de Bord</h1>
+            <p>Utilisez le menu de navigation pour explorer les fonctionnalités de l'application.</p>
+        </div>
+        <h1>Produits</h1>
+        <div class="products">
+            {% for product in products %}
+                <div class="product">
+                    <img src="{{ url_for('static', filename='images/' + product.image_url) }}" alt="{{ product.name }}">
+                    <h3>{{ product.name }}</h3>
+                    <p>{{ product.description }}</p>  <!-- Description visible directement -->
+                </div>
+            {% endfor %}
+        </div>        
+    </main>
+
+    <footer>
+        &copy; 2024 Mon Application - Tous droits réservés.
+    </footer>
+</body>
+</html>
+

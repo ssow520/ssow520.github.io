@@ -1,0 +1,129 @@
+<!--DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une Commande</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_add_order.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <h2><i class="fas fa-plus-circle"></i> Ajouter une Commande</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="alert {{ category }}">
+                <ul>
+                    {% for category, message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    {% if clients and produits %}
+    <form method="POST">
+        <label for="client">Client :</label>
+        <select name="client" id="client" required>
+            {% for client in clients %}
+                <option value="{{ client.id }}">{{ client.nom }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="produit">Produit :</label>
+        <select name="produit" id="produit" required>
+            {% for produit in produits %}
+                <option value="{{ produit.id }}">{{ produit.nom }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="quantite">Quantité :</label>
+        <input type="number" name="quantite" id="quantite" required><br><br>
+
+        <button type="submit"><i class="fas fa-shopping-cart"></i> Ajouter Commande</button>
+    </form>
+    {% else %}
+    <p>Impossible d'ajouter une commande : il n'y a pas de clients ou de produits disponibles.</p>
+    {% endif %}
+
+    <br><a href="{{ url_for('list_commandes') }}" class="back-link"><i class="fas fa-arrow-left"></i> Retour à la liste des commandes</a>
+</body>
+</html-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une Commande</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_add_order.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <h2><i class="fas fa-plus-circle"></i> Ajouter une Commande</h2>
+
+    <!-- Messages Flash -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="alert">
+                <ul>
+                    {% for category, message in messages %}
+                        <li class="{{ category }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <!-- Vérifiez si des clients et des produits sont disponibles -->
+    {% if form.client_id.choices and form.produit_id.choices %}
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        
+        <!-- Champ Client -->
+        <label for="client">Client :</label>
+        {{ form.client_id(class="form-select") }}
+        {% if form.client_id.errors %}
+            <ul class="error-messages">
+                {% for error in form.client_id.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        <br><br>
+
+        <!-- Champ Produit -->
+        <label for="produit">Produit :</label>
+        {{ form.produit_id(class="form-select") }}
+        {% if form.produit_id.errors %}
+            <ul class="error-messages">
+                {% for error in form.produit_id.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        <br><br>
+
+        <!-- Champ Quantité -->
+        <label for="quantite">Quantité :</label>
+        {{ form.quantite(class="form-input") }}
+        {% if form.quantite.errors %}
+            <ul class="error-messages">
+                {% for error in form.quantite.errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        <br><br>
+
+        <!-- Bouton Ajouter -->
+        <button type="submit"><i class="fas fa-shopping-cart"></i> Ajouter Commande</button>
+    </form>
+    {% else %}
+    <p>Impossible d'ajouter une commande : il n'y a pas de clients ou de produits disponibles.</p>
+    {% endif %}
+
+    <br><a href="{{ url_for('list_commandes') }}" class="back-link"><i class="fas fa-arrow-left"></i> Retour à la liste des commandes</a>
+</body>
+</html>
+

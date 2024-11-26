@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier le Produit</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_edit_product.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1><i class="fas fa-edit"></i> Modifier le Produit</h1>
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div>
+            <label for="nom">{{ form.nom.label }}</label>
+            {{ form.nom(size=32) }}
+        </div>
+        <div>
+            <label for="prix">{{ form.prix.label }}</label>
+            {{ form.prix(size=32) }}
+        </div>
+        <div>
+            <label for="description">{{ form.description.label }}</label>
+            {{ form.description(rows=4, cols=50) }}
+        </div>
+        <div>
+            <label for="stock">{{ form.stock.label }}</label>
+            {{ form.stock(size=32) }}
+        </div>
+        <div>
+            <label for="type_produit">{{ form.type_produit.label }}</label>
+            <select name="type_produit">
+                <option value="Fruits et légumes" {% if form.type_produit.data == 'Fruits et légumes' %}selected{% endif %}>Fruits et légumes</option>
+                <option value="Produits laitiers" {% if form.type_produit.data == 'Produits laitiers' %}selected{% endif %}>Produits laitiers</option>
+                <option value="Viandes et protéines" {% if form.type_produit.data == 'Viandes et protéines' %}selected{% endif %}>Viandes et protéines</option>
+                <option value="Produits de boulangerie" {% if form.type_produit.data == 'Produits de boulangerie' %}selected{% endif %}>Produits de boulangerie</option>
+                <option value="Céréales et grains" {% if form.type_produit.data == 'Céréales et grains' %}selected{% endif %}>Céréales et grains</option>
+                <option value="Conserves et produits secs" {% if form.type_produit.data == 'Conserves et produits secs' %}selected{% endif %}>Conserves et produits secs</option>
+                <option value="Condiments et épices" {% if form.type_produit.data == 'Condiments et épices' %}selected{% endif %}>Condiments et épices</option>
+                <option value="Boissons" {% if form.type_produit.data == 'Boissons' %}selected{% endif %}>Boissons</option>
+                <option value="Produits surgelés" {% if form.type_produit.data == 'Produits surgelés' %}selected{% endif %}>Produits surgelés</option>
+                <option value="Snacks et confiseries" {% if form.type_produit.data == 'Snacks et confiseries' %}selected{% endif %}>Snacks et confiseries</option>
+                <option value="Produits non alimentaires" {% if form.type_produit.data == 'Produits non alimentaires' %}selected{% endif %}>Produits non alimentaires</option>
+            </select>
+        </div>
+        <div>
+            {{ form.submit() }}
+        </div>
+    </form>
+
+    <a href="{{ url_for('list_produits') }}" class="back-link">
+        <i class="fas fa-arrow-left"></i> Retour à la liste des produits
+    </a>
+</body>
+</html>

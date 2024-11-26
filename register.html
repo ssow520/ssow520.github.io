@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_register.css') }}">
+</head>
+<body>
+    <h1>Inscription</h1>
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username(class_="form-control", placeholder="Nom d'utilisateur") }}
+        {{ form.password(class_="form-control", placeholder="Mot de passe") }}
+        {{ form.submit(class_="btn-submit") }}
+    </form>
+    <p>Déjà un compte ? <a href="{{ url_for('login') }}">Connectez-vous ici</a>.</p>
+</body>
+</html>

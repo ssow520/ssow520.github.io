@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commandes</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_orders.css') }}">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-clipboard-list"></i> Liste des Commandes</h1>
+    </header>
+
+    <!-- Lien de retour à la page d'accueil -->
+    <div class="home-link">
+        <a href="{{ url_for('dashboard') }}"><i class="fas fa-home"></i> Accueil</a>
+    </div>
+
+    <main>
+        <!-- Affichage des messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="alerts">
+                    {% for category, message in messages %}
+                        <div class="alert {% if category == 'error' %}alert-danger{% else %}alert-success{% endif %}">
+                            <i class="fas {% if category == 'error' %}fa-exclamation-circle{% else %}fa-check-circle{% endif %}"></i>
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <!-- Ajouter une commande -->
+        {% if clients and produits %}
+            <div class="action-link">
+                <a href="{{ url_for('add_order') }}" class="btn-primary">
+                    <i class="fas fa-plus-circle"></i> Ajouter une commande
+                </a>
+            </div>
+        {% else %}
+            <p class="info-message">
+                <i class="fas fa-info-circle"></i> Impossible d'ajouter une commande : il n'y a pas de clients ou de produits disponibles.
+            </p>
+        {% endif %}
+
+        <!-- Tableau des commandes -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Client</th>
+                    <th>Produit</th>
+                    <th>Quantité</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if orders %}
+                    {% for order in orders %}
+                        <tr>
+                            <td>{{ order[1] }}</td>  <!-- Client name -->
+                            <td>{{ order[2] }}</td>  <!-- Product name -->
+                            <td>{{ order[3] }}</td>  <!-- Quantity -->
+                            <td class="action-buttons">
+                                <!-- Modifier -->
+                                <a href="{{ url_for('edit_order', order_id=order[0]) }}" class="btn-action btn-primary">
+                                    <i class="fas fa-edit"></i> Modifier
+                                </a>
+                            <!-- Supprimer -->
+                            <form method="POST" action="{{ url_for('delete_order', order_id=order[0]) }}" style="display:inline;">
+                                <button type="submit" class="btn-action btn-danger" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette commande ?');">
+                                    <i class="fas fa-trash-alt"></i> Supprimer
+                                </button>
+                            </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="4" class="no-data">
+                            <i class="fas fa-folder-open"></i> Aucune commande à afficher.
+                        </td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        &copy; 2024 Mon Application - Tous droits réservés.
+    </footer>
+</body>
+</html>
