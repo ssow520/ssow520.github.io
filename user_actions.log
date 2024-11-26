@@ -1,0 +1,440 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:29] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:30] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:30] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:30] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:30] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:30] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:30] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:31] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:32] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:34] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:35] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:35] "[36mGET /static/style_clients.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:40] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:41] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:41] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:43] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:14:43] "[36mGET /static/style_add_product.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:24] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:24] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:24] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:17:29] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:42] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:42] "[36mGET /static/style_clients.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:43] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:44] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:44] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:44] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:44] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:44] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:44] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:45] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:45] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:46] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:48] "GET /graph HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:48] "[36mGET /static/style_graph.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:48] "GET /static/price_histogram.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:48] "GET /static/category_bar_chart.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:48] "GET /static/product_share.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:24:54] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Projet\\Langage_Script\\ProjetC\\gestion_produit.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug: * Detected change in 'c:\\Projet\\Langage_Script\\ProjetC\\gestion_produit.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug: * Detected change in 'c:\\Projet\\Langage_Script\\ProjetC\\gestion_produit.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:17] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:18] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:23] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:24] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:24] "[36mGET /static/style_clients.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:26] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:27] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:27] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:28] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:31] "GET /graph HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:31] "GET /static/category_bar_chart.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:31] "GET /static/product_share.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:31] "[36mGET /static/style_graph.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:31] "GET /static/price_histogram.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:33] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:02:35] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:14] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:15] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:15] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:15] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:15] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:15] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:03:15] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:14] "GET /static/style_index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:17] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:17] "GET /static/style_login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /static/style_dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /static/images/pomme.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /static/images/banane.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /static/images/brocoli.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /static/images/salade.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:26] "GET /static/images/tomate.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:30] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:30] "GET /static/style_produits.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:32] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:36] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:36] "GET /static/style_clients.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:44] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:45] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:45] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:45] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:45] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:45] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:04:45] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:31] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:33] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:33] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:34] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:34] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:34] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:34] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:43] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:44] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:52] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:53] "GET /static/images/banane.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:53] "GET /static/images/tomate.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:53] "GET /static/images/pomme.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:53] "GET /static/style_dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:53] "GET /static/images/salade.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:10:53] "GET /static/images/brocoli.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:11:00] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:11:00] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:11:03] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:11:04] "GET /static/style_add_product.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:11:13] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:11:13] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:06] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:09] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:09] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:09] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:09] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:09] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:09] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:32] "GET /graph HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:32] "GET /static/style_graph.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:32] "GET /static/price_histogram.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:32] "GET /static/category_bar_chart.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:32] "GET /static/product_share.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:51] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:52] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:52] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:52] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:52] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:52] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:52] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:54] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:54] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:58] "GET /list?type_produit=Produits+laitiers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:27:59] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:02] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:03] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:03] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:03] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:03] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:03] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:03] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:07] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:07] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:14] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:14] "GET /static/style_register.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:17] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:18] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 15:28:20] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:38] "GET /static/style_index.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:40] "GET /static/style_login.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:36:56] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /static/style_dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /static/images/brocoli.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /static/images/salade.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /static/images/tomate.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /static/images/banane.webp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:03] "GET /static/images/pomme.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:07] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:07] "GET /static/style_produits.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:09] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:10] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:37:10] "GET /static/style_clients.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:13] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:14] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:14] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:14] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:15] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:15] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:15] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:16] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:16] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:17] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:18] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:43] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:45] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:45] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:46] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:47] "GET /static/style_add_product.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:49] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:49] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:51] "GET /list?type_produit=Produits+de+boulangerie HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:52] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:54] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:55] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:55] "[36mGET /static/style_clients.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:58] "GET /edit_client/21 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:44:58] "GET /static/style_edite_client.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:00] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:00] "[36mGET /static/style_clients.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:03] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:04] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:04] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:04] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:04] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:04] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:04] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:06] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:06] "GET /static/style_orders.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:07] "GET /edit_order/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:07] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:10] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:10] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:12] "GET /add_order HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:12] "GET /static/style_add_order.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:17] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:17] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:21] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:22] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:22] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:22] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:22] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:22] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:22] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:24] "GET /graph HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:24] "GET /static/style_graph.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:24] "GET /static/product_share.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:24] "GET /static/price_histogram.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:24] "GET /static/category_bar_chart.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:28] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:33] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 18:45:33] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-863-125
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:02] "GET /list HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:02] "[36mGET /static/style_produits.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "GET /list_clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:04] "[36mGET /static/style_clients.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:05] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:06] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:06] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:07] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:09] "GET /graph HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:09] "[36mGET /static/style_graph.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:09] "GET /static/category_bar_chart.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:09] "GET /static/product_share.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:09] "GET /static/price_histogram.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:11] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:15] "GET /commandes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:15] "[36mGET /static/style_orders.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "[36mGET /static/style_dashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "[36mGET /static/images/banane.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "[36mGET /static/images/pomme.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "[36mGET /static/images/tomate.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "[36mGET /static/images/salade.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:18] "[36mGET /static/images/brocoli.webp HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:19] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 19:43:19] "[36mGET /static/style_login.css HTTP/1.1[0m" 304 -
